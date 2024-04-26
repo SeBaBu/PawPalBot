@@ -5,3 +5,20 @@
     "deaths": {},
     "hats": []
 }
+    "cuddle_attack": [
+        "{sender} drückt {target} gaaaaaaaaaaaaanz fest an sich!",
+        "{target} weiß gar nicht was passiert ist. Plötzlich war da ein lautes \"KNUDDELN\" und jetzt kullern {target} und {sender} zusammen eine Blumenwiese hinunter!",
+        "{sender} ist so stürmisch, dass {target} fast die Luft wegbleibt. Intensiv-Knuddeln sollte als Extremsportart oder Mutprobe gelten!",
+        "{target} fällt Rückwärts um, weil {sender} fürs Knuddeln zu viel Anlauf genommen hat!",
+        "{sender} rennt mit ausgebreiteten Armen und geschlossenen Augen los, verfehlt {target} ganz knapp und knuddelt deswegen versehentlich einen Baum!",
+        "{target} wird mit so viel Wucht von {sender} angeknuddelt, dass es schwer fällt, nicht das Gleichgewicht zu verlieren!",
+        "{sender} hat sich selbst in Luftpolsterfolie eingewickelt, um {target} noch knuddeliger knuddeln zu können!",
+        "Ganz leise schleicht sich {sender} an {target} heran und macht einen linksfüßigen Fällrück-Knuddler!",
+        "\"Knuddel knuddel?\", fragte {sender}. Darauf {target}:\"KNUDDELI KNUDDEL KNUDDEL!!!!\"",
+        "{sender} wickelt sich in die besonders weiche Kuscheldecke ein und erklärt {target}, dass man Knuddelburritos besonders fest knuddeln muss!",
+        "\"Ist es ein Vogel? Ist es ein Flugzeug?\", hört man {target} fragen. Nein, es ist der gefürchtete Knuddelsprung von {sender}!",
+        "{sender} täuscht ein doppeltes High Five an, nur um im letzten Moment {target} ganz doll zu knuddeln!",
+        "{target} hört ein paar tapsige Schritte hinter sich, aber da hat {sender} auch schon die Überraschungs-Knuddel-Attacke gestartet!",
+        "Lucky Luke zieht schneller als sein Schatten, aber {sender} knuddelt {target} noch viiiiel schneller!",
+        "Mit ausgebreiteten Armen rennt {sender} los und drückt {target} ganz doll an sich!"
+    ]
