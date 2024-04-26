@@ -81,7 +81,13 @@ class Bot(commands.Bot):
             f"{channel_name} ist schon {counter} mal in {current_game} gestorben!"
         )
         self.save_config()
+        await ctx.send(response)
 
+    @commands.command(aliases=("knuddel", "knuddeln"))
+    async def cuddle_attack(self, ctx: commands.Context):
+        attack_type = random.choice(self.config["cuddle_attack"])
+        target = ctx.message.content.split(" ")[1]
+        response = attack_type.format(target=target, sender=ctx.author.name)
         await ctx.send(response)
 
     @commands.command()
