@@ -36,7 +36,13 @@ class Bot(commands.Bot):
     def save_config(self):
         """Save config to file."""
         with open(self.config_location, "w", encoding="utf-8") as current_config_file:
-            json.dump(self.config, current_config_file, indent=4, sort_keys=True)
+            json.dump(
+                self.config,
+                current_config_file,
+                indent=4,
+                sort_keys=True,
+                ensure_ascii=False,
+            )
 
     async def event_ready(self):
         print(f"Logged in as | {self.nick}")
