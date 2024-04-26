@@ -3,8 +3,18 @@
     "prefix": "!",
     "channels": [],
     "deaths": {},
-    "hats": []
-}
+    "hats": [
+        "Schlappohren",
+        "Sonnenhut",
+        "Pünktchenhut",
+        "Karohut",
+        "Katzenohren mit Schleife",
+        "weißer Leopard",
+        "Kimono-Cap",
+        "Rosenspange",
+        "Schneefuchs-Ohren",
+        "Katzenbeanie"
+    ],
     "cuddle_attack": [
         "{sender} drückt {target} gaaaaaaaaaaaaanz fest an sich!",
         "{target} weiß gar nicht was passiert ist. Plötzlich war da ein lautes \"KNUDDELN\" und jetzt kullern {target} und {sender} zusammen eine Blumenwiese hinunter!",
@@ -22,3 +32,5 @@
         "Lucky Luke zieht schneller als sein Schatten, aber {sender} knuddelt {target} noch viiiiel schneller!",
         "Mit ausgebreiteten Armen rennt {sender} los und drückt {target} ganz doll an sich!"
     ]
+    }
+
