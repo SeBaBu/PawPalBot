@@ -26,6 +26,7 @@ class Bot(commands.Bot):
             token=self.config["token"],
             prefix=self.config["prefix"],
             initial_channels=self.config["channels"],
+            case_insensitive=True,
         )
 
     def open_config(self):
