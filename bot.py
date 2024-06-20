@@ -98,6 +98,19 @@ class Bot(commands.Bot):
 
         await ctx.send(f"Für {ctx.author.name} zufällig ausgewählt: {one_hat}")
 
+    @commands.command()
+    async def katze(self, ctx: commands.Context):
+        """Counter for cat appearances."""
+
+        if not self.config.get("katze"):
+            self.config["katze"] = 0
+        self.config["katze"] += 1
+
+        self.save_config()
+        await ctx.send(
+            f"Es mauzt schon zum {self.config['katze']}. Mal aus dem Hintergrund."
+        )
+
     @commands.command(aliases=("hüte", "huete"))
     async def hat_command(self, ctx: commands.Context):
         """Lists all available hats."""
